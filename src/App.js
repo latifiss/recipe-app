@@ -10,7 +10,7 @@ function App() {
   const [query, setQuery] = useState("");
   const [recipes, setRecipes] = useState([]);
 
-  //function to search for the recipes
+  //function to search for recipes
   const searchRecipes = async () => {
     setIsLoading(true);
     const url = apiUrl + query;
